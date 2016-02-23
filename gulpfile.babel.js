@@ -4,9 +4,9 @@ import webpack from 'webpack';
 
 gulp.task('webpack', done => {
   webpack({
-    entry: './app/boot.js',
+    entry: 'app/boot.js',
     output: {
-      filename: './build/js/app.min.js'
+      filename: 'build/js/app.min.js'
     },
     module: {
       loaders: [
